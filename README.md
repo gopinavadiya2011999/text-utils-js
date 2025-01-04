@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Text Utils
+- Text Utils is a lightweight, responsive, and feature-rich web application designed for efficient text manipulation and analysis. It provides users with essential tools to transform and analyze text easily, catering to developers, writers, and content creators alike.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://github.com/user-attachments/assets/4f7f6d82-87bb-4a45-aac0-5e9fdd677676
 
-## Available Scripts
 
-In the project directory, you can run:
+# 🌟 Features
 
-### `npm start`
+## 🔠 Text Transformations
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Convert to Uppercase: Transform all text to uppercase.
+- Convert to Lowercase: Transform all text to lowercase.
+- Title Case: Capitalize the first letter of each word.
+- Reverse Text: Flip the text for a mirrored output.
+- Remove Extra Spaces: Eliminate unnecessary spaces between words.
+- Clear Text: Reset the input area with a single click.
+  
+## 📄 Text Analysis
+- Word and Character Count: Instantly calculate the number of words and characters.
+- Reading Time Estimate: Get an approximate time to read the text.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📋 Clipboard Utilities
+- Copy the transformed text to your clipboard with one click for easy sharing or further use.
+  
+## 🌓 Dark Mode Support
+- Toggle between light and dark mode for a comfortable user experience, regardless of lighting conditions.
 
-### `npm test`
+## 🖼️ UI Overview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- The interface is designed for simplicity and functionality:
+- Input Field: Enter your text to analyze and transform.
+- Action Buttons: Perform text transformations or analysis with a click.
+- Summary Section: Displays word count, character count, and reading time.
+- Preview Section: Real-time preview of the transformed text.
 
-### `npm run build`
+## 📂 Folder Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```plaintext
+Copy code
+├── public/                # Static assets
+│   ├── favicon.ico        # Favicon
+│   └── ...
+├── src/                   # Application source code
+│   ├── components/        # Reusable UI components
+│   ├── pages/             # Main pages (e.g., Home)
+│   ├── styles/            # Global and component-specific styles
+│   └── utils/             # Helper functions for text transformations
+├── package.json           # Project metadata and dependencies
+└── README.md              # Documentation
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots of UIs 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![4](https://github.com/user-attachments/assets/9e8a452d-f3d1-4f77-a238-8cc33f72235c)
+![3](https://github.com/user-attachments/assets/e258673e-75d5-403b-a0fa-ecaabe444992)
+![2](https://github.com/user-attachments/assets/51899ab3-aa07-4c71-8c98-f16d438513b9)
+![1](https://github.com/user-attachments/assets/8564af61-cd00-42f1-934b-bce62a8e6fe3)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React: Component-based library for building the UI
+- JavaScript: Core functionality for text operations.
